@@ -6,7 +6,7 @@ the initial creator of an item to delete his/her own item,
 unless an explicit deny delete access right is applied to 
 the item.
 
-# Build and install
+## Build and install
 Update the nuget package sitecore references if the version
 doesn't match your Sitecore version. Compile the solution 
 and copy the output dll and the config file to target
@@ -17,7 +17,7 @@ SqlServerAuthorizationProvider and BucketAuthorizationProvider.
 If you've made customization to these providers, this module
 needs to be updated accordingly.
 
-# Usage
+## Usage
 The module enables the "Remove version" permission in the 
 Security Rights dialog. When you need to allow users to delete
 item versions, but not the entire item, assign the Remove
