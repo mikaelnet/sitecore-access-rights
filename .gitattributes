@@ -1,0 +1,3 @@
+*.item -text
+*.ps1	text
+*.min.js text eol=lf
