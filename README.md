@@ -6,6 +6,8 @@ the initial creator of an item to delete his/her own item,
 unless an explicit deny delete access right is applied to 
 the item.
 
+[More details in this blog post](https://mikael.com/2017/08/improved-sitecore-delete-item-access-rights/)
+
 ## Build and install
 Update the nuget package sitecore references if the version
 doesn't match your Sitecore version. Compile the solution 
