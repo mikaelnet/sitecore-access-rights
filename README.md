@@ -16,3 +16,20 @@ The config file updates the two default authorization providers,
 SqlServerAuthorizationProvider and BucketAuthorizationProvider.
 If you've made customization to these providers, this module
 needs to be updated accordingly.
+
+# Usage
+The module enables the "Remove version" permission in the 
+Security Rights dialog. When you need to allow users to delete
+item versions, but not the entire item, assign the Remove
+version permission accordingly:
+
+![remove version access option](img/remove-version-access-option.png)
+
+The module also enables authors to delete items created by
+them selves, unless there are other explicit delete permissions.
+Note that the "CreatedBy" field is a versioned field, so the
+access right is evaluated based on the very first item version, 
+regardless of language.
+
+![access viewer](img/access-viewer.png)
+
